@@ -6,7 +6,7 @@ import glob
 
 
 def func(source, destination):
-    for filename in glob.glob(os.path.join(src, '*.*')):
+    for filename in glob.glob(os.path.join(source, '*.*')):
         shutil.copy(filename, destination)
 
 
